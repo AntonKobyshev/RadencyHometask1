@@ -12,9 +12,9 @@ export default class Note {
   }
 
   toRenderObject() {
-    const dateFormatter = new Intl.DateTimeFormat(undefined, {
+    const dateFormatter = new Intl.DateTimeFormat('en', {
       year: 'numeric',
-      month: '2-digit',
+     month: 'long',
       day: '2-digit',
     });
     const formattedCreationDate = dateFormatter.format(this.creationDate);
