@@ -27,15 +27,16 @@ document.querySelector
 document.addEventListener
 
 Another skil should practice is working with Git and Github. Implement the following git requirements while working on the task:
-Make at least 3 commits
-Push commits to the develop branch to the Github repository
-When finished, create a pull request to the master branch
-Try several git commands
-See commit log
-See diff between commits
-Make some code changes and see git status
-Perform reset --hard
-https://git-scm.com/docs
-https://guides.github.com/introduction/flow/
+
+1. Make at least 3 commits
+2. Push commits to the develop branch to the Github repository
+3. When finished, create a pull request to the master branch
+4. Try several git commands
+   a. See commit log
+   b. See diff between commits
+   c. Make some code changes and see git status
+   d. Perform reset --hard
+   https://git-scm.com/docs
+   https://guides.github.com/introduction/flow/
 
 ![alt text](https://github.com/AntonKobyshev/RadencyHometask1/blob/main/img/readme-img.jpg?raw=true)
