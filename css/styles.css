@@ -80,6 +80,7 @@ body {
     border-radius: 4px;
     float: right;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .create-button:hover, .create-button:focus  {
@@ -125,6 +126,7 @@ body {
     height: 32px;
     width: 100%;
     transition: transform 0.2s;
+    cursor: pointer;
 }
 
 .to-archive-button:hover,
