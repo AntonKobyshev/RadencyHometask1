@@ -18,13 +18,13 @@ https://exploringjs.com/impatient-js https://developer.mozilla.org/ru/docs/Web/A
 While working on the task should utilize all of the following:
 
 1. JavaScript  
-   a) Import / export
-   b) Array methods: map, reduce, filter (some of them)
-   c) Array spread operator
-   d) Regular expressions
+   a) Import / export  
+   b) Array methods: map, reduce, filter (some of them)  
+   c) Array spread operator  
+   d) Regular expressions  
    e) Try / catch
-2. DOM API
-   a) document.querySelector
+2. DOM API  
+   a) document.querySelector  
    b) document.addEventListener
 
 Another skil should practice is working with Git and Github. Implement the following git requirements while working on the task:
