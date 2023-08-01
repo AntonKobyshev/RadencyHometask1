@@ -37,3 +37,5 @@ Make some code changes and see git status
 Perform reset --hard
 https://git-scm.com/docs
 https://guides.github.com/introduction/flow/
+
+![alt text](https://github.com/AntonKobyshev/RadencyHometask1/blob/main/img/readme-img.jpg?raw=true)
