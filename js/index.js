@@ -1,8 +1,9 @@
 import openNoteForm from './openNoteForm.js';
 import notes from '../db/notes.js';
-import { getShowArchived, setShowArchived, editNote } from './editNote.js';
+import { getShowArchived, setShowArchived, editNote, deleteAllNotes } from './editNote.js';
 
 const headArchiveButton = document.querySelector('#head-archive-button');
+const deleteAllButton = document.querySelector('#head-delete-button');
 const newNoteButton = document.querySelector('#create-note-button');
 
 editNote();
@@ -18,4 +19,8 @@ headArchiveButton.addEventListener('click', (event) => {
 
 newNoteButton.addEventListener('click', () => {
   openNoteForm(null, notes, editNote);
+});
+
+deleteAllButton.addEventListener('click', () => {
+  deleteAllNotes();
 });

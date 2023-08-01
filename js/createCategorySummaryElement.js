@@ -12,6 +12,7 @@ function createCategorySummaryElement({ iconUrl, name, activeNumber, archivedNum
   const nameCell = document.createElement('td');
   nameCell.textContent = name;
   categorySummaryElement.appendChild(nameCell);
+  nameCell.classList.add('td-bold');
 
   const activeNumberCell = document.createElement('td');
   activeNumberCell.textContent = activeNumber;

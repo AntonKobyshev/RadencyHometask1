@@ -67,4 +67,7 @@ export function editNote() {
 
 }
 
-
+export function deleteAllNotes() {
+  notes.length = 0;
+  editNote();
+}

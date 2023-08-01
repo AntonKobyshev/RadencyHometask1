@@ -24,6 +24,7 @@ export default function createNoteElement({
   categoryIconElement.classList.add('category-icon');
 
   const nameCell = wrapIntoTd(document.createTextNode(name));
+  nameCell.classList.add('td-bold');
   const creationDateCell = wrapIntoTd(document.createTextNode(creationDate));
   const categoryNameCell = wrapIntoTd(document.createTextNode(categoryName));
   const contentCell = wrapIntoTd(document.createTextNode(content));
